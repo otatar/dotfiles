@@ -117,7 +117,7 @@ if ! shopt -oq posix; then
 fi
 export PATH="$HOME/neovim/bin:$PATH"
 eval "$(starship init bash)"
-
+export NODE_TSL_REJECT_UNAUTHORIZED=0
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
